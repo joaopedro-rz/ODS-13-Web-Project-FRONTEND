@@ -18,7 +18,7 @@ body *{
 .main-register{
     width: 100vw;
     height: 100vh;
-    background: #201b2c;
+    background: #1E152A;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@ body *{
 .right-part{
     width: 100vw;
     height: 100vh;
-    background: #201b2c;
+    background: #1E152A;
     display: flex;
     justify-content: center;
     align-items: center;
