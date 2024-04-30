@@ -89,20 +89,19 @@ nav .logoff{
     gap: 2rem;
 }
 
-.nav-links a{
+nav a{
     text-transform: uppercase;
     font-weight: 600;
     color: white;
     box-shadow: 0px 10px 40px -12px #fff;
     transition:  0.2s ease;
-    z-index: 102;
 }
 
-.nav-links a:hover, .logoff:hover{
+nav a:hover, .logoff:hover{
     color: #77ff02;
     box-shadow: 0px 10px 40px -10px #00ff8052;
-    z-index: 102;
 }
+
 
 .container{
     padding-top: 10%;

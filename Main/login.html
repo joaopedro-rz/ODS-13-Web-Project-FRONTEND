@@ -8,7 +8,7 @@
   </head>
   <body>
     <section class="container">
-        <h1>Faça Login</h1>
+      <h1>Faça Login</h1>
       <div class="main-login">
         <div class="left-part">
           <img
@@ -29,7 +29,13 @@
               <label for="senha">Senha</label>
               <input type="password" name="senha" placeholder="Senha" />
             </div>
-            <button class="btn-login">Login</button>
+            <button
+              class="btn-login"
+              onclick="gotoLink(this)"
+              value="index.html"
+            >
+              Login
+            </button>
             <div class="register">
               <p>Ainda não tem uma conta?</p>
               <a href="cadastro.html">Cadastre-se</a>
@@ -38,5 +44,11 @@
         </div>
       </div>
     </section>
+    <script>
+      function gotoLink(link) {
+        console.log(link.value);
+        location.href = link.value;
+      }
+    </script>
   </body>
 </html>

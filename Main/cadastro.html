@@ -45,7 +45,13 @@
                 placeholder="Confirmar Senha"
               />
             </div>
-            <button class="btn-register">Cadastrar-se</button>
+            <button
+              class="btn-register"
+              onclick="gotoLink(this)"
+              value="index.html"
+            >
+              Cadastrar-se
+            </button>
             <div class="login">
               <p>Ja tem uma conta?</p>
               <a href="login.html">Faça Login</a>
@@ -54,5 +60,11 @@
         </div>
       </div>
     </section>
+    <script>
+      function gotoLink(link) {
+        console.log(link.value);
+        location.href = link.value;
+      }
+    </script>
   </body>
 </html>
