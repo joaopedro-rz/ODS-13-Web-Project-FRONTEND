@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="admin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"
+    />
+    <title>Admin</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-links">
+        <li id="link0" class="link"><a href="index.html">Inicio</a></li>
+      <a class="logoff" href="./login.html">Sair</a>
+    </nav>
+    <div class="container">
+      <div class="textfield">
+        <h1>Cadastrar Usuário</h1>
+        <form id="userForm">
+          <label for="username">Nome do Usuário:</label><br>
+          <input type="text" id="username" name="username" required><br><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+          <button class="btn" type="submit">Enviar</button>
+          <button class="btn" type="button" id="clearForm">Limpar Formulário</button>
+        </form>
+        <h2>Usuários Cadastrados</h2>
+        <input type="text" id="search" placeholder="Pesquisar...">
+        <button class="btn" type="button" id="clearAll">Excluir Todos</button>
+        <ul id="userList"></ul>
+      </div>
+    </div>
+    <script src="admin.js"></script>
+  </body>
+</html>

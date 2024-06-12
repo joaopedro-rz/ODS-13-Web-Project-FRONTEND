@@ -71,7 +71,7 @@ nav{
     border-bottom: solid 1px #ccc;
 }
 
-nav a{
+nav a {
     margin-left: auto;
 }
 
@@ -79,8 +79,16 @@ nav .logoff{
     text-transform: uppercase;
     font-weight: 600;
     color: white;
-    margin-left: 17.5rem;
+    margin-left: 2rem;
 }
+
+nav .admin{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    margin-left: 15.5rem;
+}
+
 
 .nav-links{
     list-style: none;
